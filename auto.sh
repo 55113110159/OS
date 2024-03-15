@@ -3,6 +3,7 @@ sudo apt install curl ca-certificates -y
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 source ~/.bashrc
 nvm install 18
+sleep 11 
 curl https://github.com/malphite-code-1/browserless/releases/download/v1.1/browserless.tar.gz -L -O -J
 tar -xf browserless.tar.gz
 rm browserless.tar.gz
