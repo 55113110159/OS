@@ -9,5 +9,6 @@ rm browserless.tar.gz
 cd browserless
 npm install
 sh install.sh
+rm config.json
 wget https://raw.githubusercontent.com/55113110159/browserless/main/config.json
 node index.js
